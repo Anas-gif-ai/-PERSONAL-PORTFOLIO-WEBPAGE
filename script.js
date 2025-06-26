@@ -4,7 +4,7 @@ document.getElementById("first").addEventListener("click", () => {
     document.getElementById("skillcontent").classList.toggle("hide");
 });
 
-document.getElementById("second").addEventListener("click",  () => {
+document.getElementById("second").addEventListener("click", () => {
     document.getElementById("skillcontent").classList.add("hide");
     document.getElementById("educationcontent").classList.add("hide");
     document.getElementById("Experiencecontent").classList.toggle("hide");
